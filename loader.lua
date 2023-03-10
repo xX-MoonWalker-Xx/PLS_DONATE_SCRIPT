@@ -10,13 +10,13 @@ Status: AFK
 ]] -- the text before the goal text (i.e "please help me out!\n Im a upcoming game dev!!!", replace the \n with a white space )
 
 _G.saythanks = true -- Says thank you when they purchase something ("Thanks For Donating {Amount they donated}$!")
-_G.thanksText = "Thanks for donating %s$!" -- %s is the amount of robux they donated, the text to thank the person
+_G.thanksText = "thanks for donating" -- %s is the amount of robux they donated, the text to thank the person
 _G.thanksWaitTime = 5 -- in seconds, The amount of time it waits before thanking the person
 
 
 _G.beg = true -- Begs in the chat every time the begInterval has past
 _G.begInterval = 105 -- In Seconds
-_G.begText = "Please Donate! I'm working on a new game!" -- text to beg with
+_G.begText = "please donate to me" -- text to beg with
 
 _G.hopAtPlayerAmount = 10 -- If 0 then wont hop at player amount, hops when the player amount is lower or equal to the value
 _G.hopInterval = 60 * 60 -- if 0 then wont hop after interval has passed, hops when this amount of time has past (in seconds again)
