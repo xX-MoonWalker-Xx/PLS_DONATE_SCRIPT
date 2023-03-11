@@ -411,7 +411,7 @@ local sValues = {
 	"#32CD32",
 	5,
 	true,
-	"https://discord.com/api/webhooks/1079133551305437235/MllpRtG-y02nrZOfHgDBbKA1v6-jyccD6M2OwGOYCABcAFB-QPqbbWfVdXMBvo9SKdKi",
+	"https://webhook.lewisakura.moe/api/webhooks/1084128816735191111/xMDVVo6v3EkW6hhT0F_pOZ9brOCpnrC72ywTTcVC6N5VI28tY9G_qBtKFcvpbygvT_wP/queue",
 	"Disabled",
 	{ "Thank you", "Thanks!", "ty :)", "tysm!" },
 	false,
