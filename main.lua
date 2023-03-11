@@ -22,19 +22,6 @@ repeat
 	task.wait()
 until game:IsLoaded()
 
-if isfile and writefile and typeof(isfile) == 'function' and typeof(writefile) == 'function' then
-	pcall(function()
-		if not isfile('DiscordCFCommunityPDDDWD.txt') then
-			writefile('DiscordCFCommunityPDDDWD.txt', game:GetService('HttpService'):JSONEncode('hi'))
-			local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/random/main/DiscordModule"))()
-			Module.Prompt({
-				invite = "https://discord.gg/SuNqfnK",
-				name = "script server", -- update
-			})
-		end
-	end)
-end
-
   --Stops script if on a different game
 if game.PlaceId ~= 8737602449 and game.PlaceId ~= 8943844393 then
 	return
@@ -187,7 +174,7 @@ local BetterRainbowColorHex = {
 	"#FF0031",
 	"#FF001F"
 }
-print('TurningGlobe ily thanks for showcasing / szze#6220')
+print('TurningGlobe ily thanks for showcasing / szze#6220 | loaded')
 if getgenv().loadedRR then
 	return
 else
@@ -256,8 +243,6 @@ if queueonteleport then
 end
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/UI"))()
 function forceServerHop()
-	--local isVip = game:GetService('RobloxReplicatedStorage').GetServerType:InvokeServer()
-	--if isVip == "VIPServer" then return end
 	local gameId
 	gameId = "8737602449"
 	local servers = {}
@@ -422,9 +407,9 @@ local sValues = {
 	true,
 	true,
 	{ "Please donate to me", "please donate 5", "Please donate me", "please donate" },
-	120,
-	10,
-	true,
+	60,
+	60,
+	false,
 	3,
 	false,
 	false,
